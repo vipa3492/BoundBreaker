@@ -14,6 +14,7 @@
 		29CBC4EF1AA149DF0067E2E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CBC4EE1AA149DF0067E2E3 /* Images.xcassets */; };
 		29CBC4F21AA149DF0067E2E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CBC4F01AA149DF0067E2E3 /* LaunchScreen.xib */; };
 		29CBC4FE1AA149DF0067E2E3 /* Bound_BreakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBC4FD1AA149DF0067E2E3 /* Bound_BreakerTests.m */; };
+		29E802D91AA9307600D93542 /* background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29E802D81AA9307600D93542 /* background.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		29CBC4F71AA149DF0067E2E3 /* Bound BreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bound BreakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CBC4FC1AA149DF0067E2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29CBC4FD1AA149DF0067E2E3 /* Bound_BreakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bound_BreakerTests.m; sourceTree = "<group>"; };
+		29E802D81AA9307600D93542 /* background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = background.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		29CBC4E11AA149DF0067E2E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				29E802D81AA9307600D93542 /* background.gif */,
 				29CBC4E21AA149DF0067E2E3 /* Info.plist */,
 				29CBC4E31AA149DF0067E2E3 /* main.m */,
 			);
@@ -200,6 +203,7 @@
 			files = (
 				29CBC4ED1AA149DF0067E2E3 /* Main.storyboard in Resources */,
 				29CBC4F21AA149DF0067E2E3 /* LaunchScreen.xib in Resources */,
+				29E802D91AA9307600D93542 /* background.gif in Resources */,
 				29CBC4EF1AA149DF0067E2E3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				29CBC5031AA149DF0067E2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29CBC5041AA149DF0067E2E3 /* Build configuration list for PBXNativeTarget "Bound BreakerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				29CBC5061AA149DF0067E2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
